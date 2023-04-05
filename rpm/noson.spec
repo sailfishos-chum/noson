@@ -43,7 +43,7 @@ to browse music index and control playback in any zones.
 %build
 %cmake \
     -DCMAKE_INSTALL_FULL_LIBDIR=%{_libdir}
-%make
+%make_build
 
 %install
 %make_install -C build
