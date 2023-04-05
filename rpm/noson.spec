@@ -54,8 +54,7 @@ to browse music index and control playback in any zones.
 %files -n libnoson2
 %license LICENSE
 %doc README.md
-%{_libdir}/libnoson.so.%{version}
-%{_libdir}/libnoson.so.2
+%{_libdir}/libnoson.so.*
 
 %files devel
 %{_includedir}/noson
