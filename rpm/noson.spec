@@ -43,12 +43,13 @@ to browse music index and control playback in any zones.
 %build
 %cmake \
     -DCMAKE_INSTALL_FULL_LIBDIR=%{_libdir}
-%make_jobs
+%make
 
 %install
 %make_install -C build
 
-%ldconfig_scriptlets -n libnoson2
+%post -p /sbin/ldconfig
+%postun -p /sbin/ldconfig
 
 %files -n libnoson2
 %license LICENSE
