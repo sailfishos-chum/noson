@@ -1,5 +1,5 @@
 Name:           noson
-Version:        2.10.2
+Version:        2.12.7
 Release:        0
 Summary:        C++ library for accessing sonos devices
 License:        GPL-3.0-or-later
