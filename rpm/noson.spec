@@ -46,7 +46,7 @@ to browse music index and control playback in any zones.
 %make_build
 
 %install
-%make_install -C build
+%make_install
 
 %post -p /sbin/ldconfig
 %postun -p /sbin/ldconfig
